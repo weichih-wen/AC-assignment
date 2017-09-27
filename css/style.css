@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  font-family: "微軟正黑體";
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  background-color: #383838;
+}
+
+#logo {
+  float: left;
+  margin: 16px 0;
+  color: #597ce1;
+}
+
+#nav {
+  float: right;
+}
+
+#nav li {
+  display: inline-block;
+}
+
+#nav li a {
+  padding-left: 15px;
+  text-decoration: none;
+  color: #597ce1;
+}
+
+.menu-button,
+.menu-button-checkbox {
+  display: none;
+}
+
+#content {
+  padding-top: 54px;
+  background-color: #597ce1;
+  color: #383838;
+}
+
+#about-me,
+#music-story,
+#cafe-recommand {
+  padding-top: 54px;
+}
+
+#about-me .photo {
+  float: left;
+  max-width: 200px;
+  margin-right: 25px;
+}
+
+#about-me .photo img {
+  width: 100%;
+}
+
+#about-me .intro {
+  padding: 10px;
+}
+
+#about-me .intro h2,
+#about-me .intro p {
+  margin: 0;
+}
+
+#about-me .intro hr {
+  border: 2px solid #5472c8;
+}
+
+#about-me .intro table tr {
+  vertical-align: top;
+}
+
+#about-me .intro table tr td {
+  padding-right: 10px;
+}
+
+#about-me .intro table ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+#music-story .description,
+#cafe-recommand .description {
+  text-align: center;
+}
+
+#music-story .item-music,
+#cafe-recommand .item-cafe {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+#music-story .item-music a,
+#cafe-recommand .item-cafe a {
+  text-decoration: none;
+  color: #383838;
+}
+
+#music-story .item-music img,
+#cafe-recommand .item-cafe img {
+  width: 100%;
+}
+
+#cafe-recommand .item-cafe .cafe-address h4 {
+  margin-bottom: 0;
+}
+
+#cafe-recommand .item-cafe .cafe-address p {
+  margin: 0;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  background-color: #555;
+  padding: 20px 0;
+}
+
+.blank {
+  padding: 50px;
+  background-color: #597ce1;
+}

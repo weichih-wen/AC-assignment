@@ -1,0 +1,95 @@
+@media screen and ( max-width: 960px) {
+  .container {
+    width: 720px;
+  }
+
+  #music-story .item-music,
+  #cafe-recommand .item-cafe {
+    width: 50%;
+  }
+
+  #cafe-recommand .item-cafe {
+    height: 750px;
+  }
+}
+
+@media screen and ( max-width: 768px) {
+  .container {
+    width: 480px;
+  }
+
+  #nav {
+    display: none;
+    position: relative;
+    right: 190px;
+  }
+
+  .menu-button,
+  .menu-button-checkbox {
+    display: inline-block;
+    float: right;
+  }
+
+  .menu-button {
+    margin: 16px 0;
+    padding: 0 6px;
+    background-color: transparent;
+    border: none;
+    color: #5a7ce1;
+    font-size: initial;
+  }
+
+  .menu-button-checkbox {
+    position: relative;
+    top: 5px;
+    left: 67px;
+    height: 39px;
+    width: 75px;
+    opacity: 0;
+  }
+
+  .menu-button-checkbox:checked ~ #nav {
+    display: block;
+  }
+
+  td.td-title {
+    width: 20%;
+  }
+
+  #cafe-recommand .item-cafe {
+    height: 550px;
+  }
+}
+
+@media screen and ( max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0 5%;
+  }
+
+  #nav {
+    right: 105px;
+  }
+
+  #about-me .photo {
+    float: unset;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+
+  #about-me .intro h2, #about-me .intro p {
+    text-align: center;
+  }
+
+  td.td-title {
+    width: 25%;
+  }
+
+  #music-story .item-music {
+    height: 250px;
+  }
+
+  #cafe-recommand .item-cafe {
+    height: 440px;
+  }
+}
